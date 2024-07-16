@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Backend Workflows</li>
+        <li>Scheduling</li>
+        <li>API integration</li>
+        <li>Payment Gateways</li>
+        <li>Workload Optimization</li>
+        <li>Relational Database Design</li>
+        <li>JavaScript / CSS / HTML</li>
       </ul>
     ),
   },
@@ -23,20 +24,21 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>BS Biotechnology from University of Management and Technology</li>
+        <li>Pre Medical from Punjab College Campus 8</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Experience",
+    id: "experiences",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Freelancer at Fiverr & Upwork</li>
+        <li>Senior Developer at Golden Star's School</li>
+        <li>Lead Bubble Developer at IREG-IT</li>
       </ul>
-    ),
+    ),  
   },
 ];
 
@@ -57,12 +59,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          I am a Full Stack Bubble.io developer with 3+ years of experience in the field. I create highly complex backend and recursive workflows, relational database tables, API integrations with your favourite third-party apps, custom email templates, and much more. Feel free to send a message, and let's discuss how I can help bring your ideas to reality.
+
+
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -80,11 +79,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("experiences")}
+              active={tab === "experiences"}
             >
               {" "}
-              Certifications{" "}
+              Experiences{" "}
             </TabButton>
           </div>
           <div className="mt-8">
@@ -92,6 +91,8 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
+  
+
     </section>
   );
 };
