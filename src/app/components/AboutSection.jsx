@@ -35,7 +35,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Freelancer at Fiverr & Upwork</li>
-        <li>Senior Developer at Golden Star's School</li>
+        <li>Senior Developer at Golden Star&apos;s School</li>
         <li>Lead Bubble Developer at IREG-IT</li>
       </ul>
     ),  
@@ -59,7 +59,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a Full Stack Bubble.io developer with 3+ years of experience in the field. I create highly complex backend and recursive workflows, relational database tables, API integrations with your favourite third-party apps, custom email templates, and much more. Feel free to send a message, and let's discuss how I can help bring your ideas to reality.
+          I am a Full Stack Bubble.io developer with 3+ years of experience in the field. I create highly complex backend and recursive workflows, relational database tables, API integrations with your favourite third-party apps, custom email templates, and much more. Feel free to send a message, and let&apos;s discuss how I can help bring your ideas to reality.
 
 
           </p>
